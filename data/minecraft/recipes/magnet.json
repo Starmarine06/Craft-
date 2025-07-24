@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "Y Y",
+      "X X",
+      "X#X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:ender_pearl"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

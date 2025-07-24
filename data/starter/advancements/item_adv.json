@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:recipies/custom_crafter"
+            }
+        }
+    },
+    "rewards": {
+        "function": "starter:crafted_item1"
+    }
+}

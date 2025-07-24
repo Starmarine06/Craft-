@@ -1,0 +1,14 @@
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:31b}]}] run effect clear @s bad_omen
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:15b}]}] run effect clear @s blindness
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:24b}]}] run effect clear @s glowing
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:17b}]}] run effect clear @s hunger
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:14b}]}] run effect clear @s invisibility
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:25b}]}] run effect clear @s levitation
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:4b}]}] run effect clear @s mining_fatigue
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:9b}]}] run effect clear @s nausea
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:19b}]}] run effect clear @s poison
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:2b}]}] run effect clear @s slowness
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:27b}]}] run effect clear @s unluck
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:18b}]}] run effect clear @s weakness
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}},ActiveEffects:[{Id:20b}]}] run effect clear @s wither
+execute as @a[scores={g_rc=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{totem:1b}}}] run clear @s minecraft:carrot_on_a_stick{totem:1b} 1

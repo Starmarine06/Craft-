@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [      
+      {
+        "type": "minecraft:alternatives",        
+        "children": [{
+             "type": "minecraft:item",
+             "weight" : 100,
+             "conditions": [{
+                   "condition": "minecraft:match_tool",
+                   "predicate": {
+                     "nbt": "{CustomModelData:123}"
+                    }
+            }],
+              "name": "minecraft:smooth_quartz"
+                   }]
+    },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:quartz_block"
+      }],
+   "conditions": [
+    {
+      "condition": "minecraft:survives_explosion"
+    }
+  ]
+  }]
+}

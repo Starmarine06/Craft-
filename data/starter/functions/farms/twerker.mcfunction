@@ -1,0 +1,13 @@
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:oak_sapling[stage=1] replace minecraft:oak_sapling[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:carrots[age=7] replace minecraft:carrots[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:wheat[age=7] replace minecraft:wheat[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:wheat[age=7] replace minecraft:wheat[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:potatoes[age=7] replace minecraft:potatoes[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:beetroots[age=3] replace minecraft:beetroots[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:cocoa[age=2] replace minecraft:cocoa[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:nether_wart[age=3] replace minecraft:nether_wart[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:pumpkin_stem[age=7] replace minecraft:pumpkin_stem[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:sugar_cane[age=9] replace minecraft:sugar_cane[]
+execute at @a if entity @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run fill ~4 ~-4 ~4 ~-4 ~4 ~-4 minecraft:sweet_berry_bush[age=3] replace minecraft:sweet_berry_bush[]
+execute at @a[scores={crouch=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{grow:1b}}}] run summon area_effect_cloud ~ ~1 ~ {Particle:"composter",Radius:3f,Age:10000,Color:1572670}
+scoreboard players reset @a[scores={crouch=2..}] crouch

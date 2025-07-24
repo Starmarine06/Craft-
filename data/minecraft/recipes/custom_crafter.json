@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+    "#X#",
+    "O@O",
+    "OOO"
+    ],
+    "key": {
+    "#": {
+        "item": "minecraft:oak_log",
+        "data": 0
+    },
+    "X": {
+        "item": "minecraft:oak_planks",
+        "data": 0
+    },
+    "O": {
+        "item": "minecraft:stone",
+        "data": 0
+    },
+    "@": {
+        "item": "minecraft:crafting_table"
+    }
+    },
+    "result": {
+    "item": "minecraft:knowledge_book"
+    }
+}

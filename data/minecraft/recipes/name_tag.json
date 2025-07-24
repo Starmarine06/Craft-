@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:tripwire_hook"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:paper"
+      }
+    ],
+    "result": {
+      "item": "minecraft:name_tag",
+      "count": 1
+    }
+  }

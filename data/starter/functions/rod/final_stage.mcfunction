@@ -1,0 +1,3 @@
+tag @e[type=giant,tag=!fs] add fs
+execute if entity @e[type=giant,scores={fs=0},tag=fs] run summon zombie ~ ~ ~ {Silent:1b,CustomNameVisible:0b,PortalCooldown:1000,PersistenceRequired:1b,Health:20f,DrownedConversionTime:100000,InWaterTime:100000,CustomName:'{"text":"Giant","color":"dark_green","bold":true,"italic":false}',ActiveEffects:[{Id:12b,Amplifier:11b,Duration:1000000},{Id:14b,Amplifier:11b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.follow_range,Base:100},{Name:generic.knockback_resistance,Base:100},{Name:generic.attack_damage,Base:12},{Name:generic.attack_knockback,Base:10}]}
+scoreboard players set @e[type=giant,scores={fs=0}] fs 1

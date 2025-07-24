@@ -1,0 +1,1 @@
+execute if entity @e[type=zombie,distance=0..2] run function starter:rod/zombie

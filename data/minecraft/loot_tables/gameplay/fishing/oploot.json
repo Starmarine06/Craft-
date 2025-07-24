@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 60,
+            "functions":[
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.0,
+                  "max": 0.2
+                }
+              },
+                {
+                  "function": "minecraft:enchant_randomly"
+                }
+              ],
+            "name": "minecraft:iron_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 60,
+            "functions":[
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.0,
+                  "max": 0.2
+                }
+              },
+                {
+                  "function": "minecraft:enchant_randomly"
+                }
+              ],
+            "name": "minecraft:iron_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 60,
+            "functions":[
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.0,
+                  "max": 0.2
+                }
+              },
+                {
+                  "function": "minecraft:enchant_randomly"
+                }
+              ],
+            "name": "minecraft:iron_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 60,
+            "functions":[
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                  "min": 0.0,
+                  "max": 0.2
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_randomly"
+                }
+              ],
+            "name": "minecraft:iron_boots"
+          }
+        ]
+      }
+    ]
+  }

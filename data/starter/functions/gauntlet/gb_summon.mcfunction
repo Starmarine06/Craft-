@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {ExplosionRadius:10}

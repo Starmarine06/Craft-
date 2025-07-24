@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [
+      
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:red_sandstone"
+      },
+      {
+        "type": "minecraft:alternatives",        
+        "children": [{
+             "type": "minecraft:item",
+             "weight": 100,
+             "conditions": [{
+                   "condition": "minecraft:match_tool",
+                   "predicate": {
+                     "nbt": "{CustomModelData:123}"
+                    }
+            }],
+    "name": "minecraft:smooth_red_sandstone"
+     }]
+   }],
+   "conditions": [
+    {
+      "condition": "minecraft:survives_explosion"
+    }
+  ]
+  }]
+}

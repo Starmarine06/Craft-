@@ -1,0 +1,2 @@
+execute if entity @a[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{gauntlet:1b}}]}] run effect give @s minecraft:instant_health 1000000 4 true
+execute if entity @a[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:99b,tag:{gauntlet:1b}}]}] run effect give @s minecraft:saturation 1000000 255 true

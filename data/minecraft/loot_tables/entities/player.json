@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1.0,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this",
+              "count": 1
+            }
+          ],
+          "name": "minecraft:player_head"
+          
+        }
+      ]
+    }
+  ]
+}

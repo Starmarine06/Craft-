@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:alternatives",        
+        "children": [{
+             "type": "minecraft:item",
+             "conditions": [{
+                   "condition": "minecraft:match_tool",
+                   "predicate": {
+                     "nbt": "{CustomModelData:123}"
+                    }
+            }],
+    "name": "minecraft:netherite_scrap"
+     },
+     {
+      "type": "minecraft:item",
+      "name": "minecraft:ancient_debris"
+    }]
+   }],
+   "conditions": [
+    {
+      "condition": "minecraft:survives_explosion"
+    }
+  ]
+  }]
+}
